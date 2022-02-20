@@ -1,2 +1,11 @@
 @charset "utf-8";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  color: #eee;
+  background-color: #A2A182;
+}
+
+.space-around {
+  justify-content: space-around;
+}

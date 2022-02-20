@@ -11118,5 +11118,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  color: #eee;
+  background-color: #A2A182;
+}
+
+.space-around {
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=main.css.map */

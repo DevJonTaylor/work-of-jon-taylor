@@ -1,12 +1,13 @@
 import { Bar } from "./Bar";
 import { Link } from "./Link";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
   return (
     <header>
       <Bar>
         <div className="container-fluid">
-          <span className="navbar-brand">Jon Taylor</span>
+          <NavLink className="navbar-brand" to="/">Jon Taylor</NavLink>
 
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto">
