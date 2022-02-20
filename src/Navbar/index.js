@@ -4,7 +4,7 @@ import { Link } from "./Link";
 function Navbar() {
   return (
     <header>
-      <nav className="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+      <Bar>
         <div className="container-fluid">
           <span className="navbar-brand">Jon Taylor</span>
 
@@ -16,7 +16,7 @@ function Navbar() {
             </ul>
           </div>
         </div>
-      </nav>
+      </Bar>
     </header>
   )
 }
