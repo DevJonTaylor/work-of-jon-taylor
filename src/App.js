@@ -19,8 +19,7 @@ function Theme() {
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Theme />
+
     </div>
   );
 }
