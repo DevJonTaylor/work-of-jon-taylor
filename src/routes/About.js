@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 function About() {
   return (
-    <section className="row space-around">
+    <section className="row justify-content-around">
       <DarkCard grid="10" md="3">
         <CardHeader>Who am I?</CardHeader>
         <CardText>I am a family first coding gamer with music where it fits.  That summarizes me!</CardText>
