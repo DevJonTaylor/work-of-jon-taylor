@@ -7,10 +7,10 @@ function Theme() {
     <main className="container">
       <h1 className="text-center m-3">Jon Taylor's Portfolio</h1>
       <Routes className="box">
-        <Route path="./" element={<Projects />} />
-        <Route path="./projects" element={<Projects />} />
-        <Route path="./contact" element={<Contact />} />
-        <Route path="./about" element={<About />} />
+        <Route path="/" element={<Projects />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </main>
   )

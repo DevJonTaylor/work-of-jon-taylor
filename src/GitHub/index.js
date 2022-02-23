@@ -18,14 +18,14 @@ function Pages({ children, user='DevJonTaylor', repoName='', newTab = true }) {
 
 function RepoAndPages({ user = 'DevJonTaylor', repoName = '', newTab = true }) {
   return (
-    <div className="space-between">
-      <div>
+    <span className="space-between">
+      <span>
         <span className="fw-bold">GitHub</span>: <Repo user={user} newTab={newTab} repoName={repoName}>here</Repo>
-      </div>
-      <div>
+      </span>
+      <span>
         <span className="fw-bold">Deployed</span>: <Pages repoName={repoName} user={user} newTab={newTab}>here</Pages>
-      </div>
-    </div>
+      </span>
+    </span>
   )
 }
 

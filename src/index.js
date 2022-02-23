@@ -9,7 +9,7 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/work-of-jon-taylor">
       <App />
     </BrowserRouter>
   </React.StrictMode>
