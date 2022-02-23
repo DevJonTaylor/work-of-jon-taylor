@@ -14,7 +14,7 @@ function DarkCard({
 
   return (
     <article className={classList.join(' ')}>
-      <div className="card-body col-">
+      <div className="card-body">
         {children}
       </div>
     </article>
