@@ -1,13 +1,13 @@
-import {DarkCard, CardHeader, CardText} from "../Cards";
+import {DarkCard, CardHeader, CardText, CardBody} from "../Cards";
 
 function Contact() {
   return (
-    <div>
-      <section className="row justify-content-center">
-        <DarkCard grid="6">
-          <CardHeader>
-            How to reach me!
-          </CardHeader>
+    <section className="center-content">
+      <DarkCard grid="6">
+        <CardHeader>
+          How to reach me!
+        </CardHeader>
+        <CardBody>
           <CardText>
             <a href="https://www.linkedin.com/in/vue-shell/">LinkedIn Profile</a>
           </CardText>
@@ -19,10 +19,9 @@ function Contact() {
           <CardText>
             <a href="tel:+15127409784">Call/SMS me (512)740-9784</a>
           </CardText>
-        </DarkCard>
-      </section>
-
-    </div>
+        </CardBody>
+      </DarkCard>
+    </section>
   );
 }
 

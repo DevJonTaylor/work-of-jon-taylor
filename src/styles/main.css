@@ -11131,4 +11131,19 @@ a {
   text-decoration: none;
 }
 
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+[open-modal] {
+  cursor: pointer;
+  user-select: none;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=main.css.map */
